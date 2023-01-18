@@ -8,6 +8,7 @@ const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true}))
+app.use('/api', api);
 
 //------------------------ALLOWS ACCESS TO THE PUBLIC PATH------------------------//
 app.use(express.static('public'));
@@ -23,6 +24,11 @@ app.get('/', (req, res) =>
 app.get('/notes', (req, res) => 
     res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
+
+//------------------------GET ROUTE FOR 404 PAGE------------------------//
+//app.get('*', (req, res) =>
+//    res.sendFile(path.join(__dirname, '!!!!!!!!!!!!!FILE PATH HERE!!!!!!!!'))
+//);
 
 
 //------------------------LISTEN METHOD BINDS WITH HOST/ PORT------------------------//

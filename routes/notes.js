@@ -1,5 +1,5 @@
 const notes = require('express').Router();
-//const { v4: uuidv4 } = require('uuid');
+//const { v4: uuidv4 } = require('uuid');  //-------------used in 28 but do we need this for this project? 
 const {
     readFromFile,
     readAndAppend,
@@ -25,10 +25,10 @@ notes.post('/', (req, res) => {
             text,
         };
 
-        readAndAppend(newNote, '.db/db.json');
+        readAndAppend(newNote, './db/db.json');
         res.json(`Note added succcessfully`);
     } else {
-        res.errored(`Error in adding tip`);
+        res.error(`Error in adding tip`);
     }
 });
 
