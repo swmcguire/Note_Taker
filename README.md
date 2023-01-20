@@ -3,26 +3,25 @@
 ## Description
 
 AS A small business owner I WANT to be able to write and save notes SO THAT I can organize my thoughts
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
+When I open the application I am presented with a landing page that links to a notes page.  On this notes page I can enter a note that can be saved and it will show up on the left hand side.  One can then view past notes and bring them back to the right hand side for a deeper review.
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+In order to use the app there are no installation instructions - one can simply navigate to https://notes-app-618.herokuapp.com/ and begin using the app by clicking on "Get Started'
+
+This will take you to the notes page where you can begin entering and retrieving notes.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+One can use this app as a way to stay on track and take notes that will be beneficial to productivity.  When you login to the app at https://notes-app-618.herokuapp.com/ you are brought to a home landing page that allows you to jump to the notes page by clicking on 'Get Started'.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+Once on the notes page one can simply create a "Note Title" and add "Note Text".  Save the note by clicking the plus symbol in the upper right hand corner.  When you click the plus button the note will get added to the left hand side of the screen.
 
-![alt text](assets/images/screenshot.png)
+If you want to retreive the note you can click on the note you'd like to see and it will bring it back to the right hand column for more details on your note.
 
+![Note Taker Home Page](./public/assets/NoteTakerHomePage.png)
+![Note Taker Notes Page](./public/assets/NoteTakerNotesPage.png)
 ## Credits
 
 U of M Class work - Activities 01 through 28
