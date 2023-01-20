@@ -1,14 +1,14 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
-    },
-    {
-        "title": "Hi",
-        "text": "HI"
-    },
-    {
         "title": "Take out trash",
-        "text": "Push trash to end of drive"
+        "text": "Garbage comes at 8 am - take out before then"
+    },
+    {
+        "title": "Pay Credit Card",
+        "text": "Due next week"
+    },
+    {
+        "title": "Go to class",
+        "text": "Class time"
     }
 ]

@@ -25,10 +25,10 @@ app.get('/notes', (req, res) =>
     res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
-//------------------------GET ROUTE FOR 404 PAGE------------------------//
-//app.get('*', (req, res) =>
-//    res.sendFile(path.join(__dirname, '!!!!!!!!!!!!!FILE PATH HERE!!!!!!!!'))
-//);
+//------------------------RE-DIRECT TO HOME PAGE IF NOTHING----------------//
+app.get('*', (req, res) =>
+    res.sendFile(path.join(__dirname, '/public/index.html'))
+);
 
 
 //------------------------LISTEN METHOD BINDS WITH HOST/ PORT------------------------//
